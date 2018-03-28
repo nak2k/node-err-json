@@ -7,16 +7,24 @@
     "url": "https://github.com/nak2k/node-err-json/issues"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.0"
+  },
   "homepage": "https://github.com/nak2k/node-err-json",
-  "keywords": [],
+  "keywords": [
+    "error",
+    "json"
+  ],
   "license": "MIT",
   "main": "lib",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nak2k/node-err-json.git"
   },
-  "scripts": {},
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "tape test/test*.js"
+  },
   "files": [
     "README.md",
     "lib/"
