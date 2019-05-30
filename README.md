@@ -5,7 +5,7 @@ Convert Error to JSON.
 ## Installation
 
 ```
-npm i err-json -S
+npm i err-json
 ```
 
 ## Usage
