@@ -1,6 +1,6 @@
 {
   "name": "err-json",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Convert Error to JSON",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
